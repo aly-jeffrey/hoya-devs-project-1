@@ -10,7 +10,7 @@
   height: 100vh;
   margin: 0 auto;
   padding: 20px;
-  background-color: lightgrey;
+  background-color: rgb(220, 220, 223);
   max-width: 1600px;
 }
 
@@ -63,6 +63,7 @@ p {
   flex-direction: column;
   gap: 20px;
   flex: 1;
+  height: max-content;
 }
 
 .top-row, .bottom-row {
@@ -73,7 +74,7 @@ p {
 }
 
 .section {
-  padding: 15px;
+  padding: 20px;
   border-radius: 8px;
   gap: 10px;
   display: flex;
